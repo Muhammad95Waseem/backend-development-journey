@@ -1,0 +1,91 @@
+# ==========================================
+# Environments & Dependency Management
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+bin/
+include/
+lib/
+lib64/
+
+# ==========================================
+# Byte-compiled / Python Cache Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# ==========================================
+# AI / ML / Data Science Datasets & Models
+# ==========================================
+# Large dataset files
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.feather
+*.jsonl
+
+# ML Models & Checkpoints
+*.pth
+*.pt
+*.onnx
+*.bin
+*.pkl
+*.pickle
+*.ckpt
+*.joblib
+*.safetensors
+/models/
+/checkpoints/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# ==========================================
+# IDEs, Editors & Operating System
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# Testing, Coverage & Logs
+# ==========================================
+*.log
+logs/
+.pytest_cache/
+.coverage
+htmlcov/
+.target/
