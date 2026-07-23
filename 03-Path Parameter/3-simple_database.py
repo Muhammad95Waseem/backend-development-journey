@@ -1,24 +1,11 @@
 from fastapi import FastAPI
 
 db = {
-    1101: {
-        "Product": "laptop",
-        "Status": "Shipped"
-    },
-    1102: {
-        "Product": "Phone",
-        "Status": "Shipped"
-    },
-    1103: {
-        "Product": "laptop",
-        "Status": "Delivered"
-    },
-    1104: {
-        "Product": "Smart Watch",
-        "Status": "Pending"
-    }
+    1101: {"Product": "laptop", "Status": "Shipped"},
+    1102: {"Product": "Phone", "Status": "Shipped"},
+    1103: {"Product": "laptop", "Status": "Delivered"},
+    1104: {"Product": "Smart Watch", "Status": "Pending"}
 }
-
 
 app = FastAPI()
 
