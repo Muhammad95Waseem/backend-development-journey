@@ -5,7 +5,7 @@ from database import Shipment, Save
 
 app = FastAPI()
 
-# Create New Shipment Entry and stores it in shipments.sjon
+# Create New Shipment Entry and stores it in shipments.json
 @app.post("/create_shipment")
 def create_shipment(id: int, data: BaseShipment):
     if id in Shipment.keys():
@@ -26,7 +26,7 @@ def update_shipment(id: int, data: UpdateShipment):
     return {"Detials": f"Shipment at #{id} Updated Successfully"}
 
 # Deletes a shipment from the shipments.json
-@app.get("/delete_shipment")
+@app.delete("/delete_shipment")
 def delete_shipment(id: int):
     if id not in Shipment.keys():
         raise HTTPException(
