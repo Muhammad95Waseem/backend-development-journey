@@ -55,5 +55,5 @@ def get_scalar_docs():
     )
 
 # Commands to Run the Server:
-# cd 07-Database/1-json
+# cd 07-Database/1-Json
 # uvicorn main:app --reload
