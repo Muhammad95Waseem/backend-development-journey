@@ -1,0 +1,8 @@
+[
+{"Id": 101, "Product": "Asus Motherboard", "Quantity": 1, "Price": 189.99, "Status": "Shipped", "Total Price": 189.99}, 
+{"Id": 102, "Product": "Corsair DDR5 RAM 32GB", "Quantity": 2, "Price": 115.0, "Status": "Processing", "Total Price": 230.0}, 
+{"Id": 103, "Product": "Logitech MX Master 3S", "Quantity": 1, "Price": 99.99, "Status": "Delivered", "Total Price": 99.99}, 
+{"Id": 104, "Product": "Samsung 4K Monitor", "Quantity": 1, "Price": 349.5, "Status": "In Transit", "Total Price": 349.5}, 
+{"Id": 105, "Product": "NvIdia RTX 4080 GPU", "Quantity": 1, "Price": 1199.0, "Status": "Pending", "Total Price": 1199.0}, 
+{"Id": 106, "Product": "Keychron Mechanical Keyboard", "Quantity": 3, "Price": 85.0, "Status": "Shipped", "Total Price": 255.0}
+]
