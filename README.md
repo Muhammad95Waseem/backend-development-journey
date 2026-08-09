@@ -4,7 +4,7 @@ This repository tracks my hands-on journey mastering modern backend development,
 
 ## What's Inside
 
-**01-Prerequisite** — Foundation concepts and Python essentials.
+**01-Prerequisite** — Foundation concepts and Python essentials.  
 **02-FastAPI Basics** — First routes, request-response lifecycles, and core FastAPI structure.  
 **03-Path Parameter** — Route parameters, dynamic path matching, and URL path structures.  
 **04-Query Parameter** — Handling search queries, optional inputs, and default values.  
